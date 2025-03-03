@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "docker.io/prabha20/shopverse-app"
+        IMAGE_NAME = "docker.io/prabha20/gamesapp"
         IMAGE_TAG = "latest"
         REGISTRY = "docker.io"
         DOCKER_USER = "prabha20"
